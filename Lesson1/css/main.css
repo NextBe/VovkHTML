@@ -1,0 +1,16 @@
+body {
+    background: antiquewhite;
+}
+h2 {
+    color: #ff0000; background: lightsalmon;
+}
+p {
+    color: #e8a500; background: lightgoldenrodyellow;
+}
+li {
+    color: firebrick; background: blanchedalmond;
+}
+a {
+    text-decoration:none;
+    color: blueviolet;
+}

@@ -1,0 +1,19 @@
+.children {
+    background: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 1000px;
+
+}
+ .children > div {
+     text-align: center;
+     align-items: center;
+     background: #e8a500;
+     margin-left: 10px;
+     margin-right: 10px;
+     border: 3px solid red;
+     min-height: 300px;
+
+ ;
+ }

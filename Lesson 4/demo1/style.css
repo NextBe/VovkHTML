@@ -1,0 +1,74 @@
+.box, .b, .a, .f {
+    margin: 10px;
+
+}
+body {
+
+}
+.wrap {
+    height: 110vh;
+    border: 3px solid darkblue;
+
+
+}
+.a {
+    background: aqua;
+    width: 98vw;
+    height: 33vh;
+}
+.box {
+    background: darkred;
+    height: 33vh;
+    width: 100%;
+}
+.b {
+    width: 64.2vw;
+    height:33vh;
+    background: blue;
+
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.father {
+    height: 66vh;
+    width: 66%;
+
+}
+.f {
+    position: absolute;
+    width: 33%;
+    height: 69vh;
+    background: pink;
+    right: 0;
+    margin-right:15px;
+
+}
+.mother {
+    display: flex;
+}
+@media screen and (max-width: 900px) {
+    .b {
+        width: 99vw;
+    }
+    .mother{
+        flex-direction: column;
+    }
+    .f {
+        bottom: 0;
+        left:0;
+        width: 99vw;
+        position: revert;
+
+    }
+    .container {
+        width: 99vw;
+        justify-content: space-between;
+    }
+    .wrap {
+        height: 180vh;
+    }
+}
+
